@@ -5,6 +5,7 @@
 @font-face{
 	font-family: space;
 	src:url(Babillon.ttf);
+	color: silver;
 }
 body{
 	font-family: space;
