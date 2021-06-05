@@ -42,14 +42,14 @@
 			<h2>Neodoljivi dizajn i boje! 🌚</h2>
 			<p>Dodajte svoju omiljenu nijansu i šemu i ćemo se potruditi da Vam
 			ostvarimo sve želje i zahteve!</p>
-<form>
+<form method="POST" action="/submit.php">
 	<table>
 		<tr>
 			<td>
 				Ime:
 			</td>
 			<td>
-			<input type="text" placeholder="Ime" name="">
+			<input type="text" placeholder="Ime" name="name">
 			</td>
 		</tr>
 		<tr>
@@ -57,7 +57,7 @@
 				Prezime:
 			</td>
 			<td>
-				<input type="text" placeholder="Prezime" name="">
+				<input type="text" placeholder="Prezime">
 			</td>
 		</tr>
 		<tr>
@@ -65,7 +65,7 @@
 				E-mail:
 			</td>
 			<td>
-				<input type="mail" placeholder="email" name="">
+				<input type="mail" placeholder="e-mail" name="email">
 			</td>
 		</tr>
 		<tr>
@@ -73,7 +73,7 @@
 				Lozinka:
 			</td>
 			<td>
-				<input type="Password" placeholder="Password" id="password">
+				<input type="Password" placeholder="Lozinka" id="password" name="password">
 				<span>
 					<i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
 				</span>
@@ -105,7 +105,7 @@
 		</tr>
 		<tr>
 			<td>
-				<input type="Submit" value="Submit" name="">
+				<input type="Submit" value="Submit">
 			</td>
 		</tr>
 	</table>
