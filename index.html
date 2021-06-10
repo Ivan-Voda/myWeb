@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Dzemperi</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div id="progressbar"></div>
@@ -42,70 +41,10 @@
 			<h2>Neodoljivi dizajn i boje! 🌚</h2>
 			<p>Dodajte svoju omiljenu nijansu i šemu i ćemo se potruditi da Vam
 			ostvarimo sve želje i zahteve!</p>
-<form method="POST" action="https://github.com/Ivan-Voda/myWeb/blob/gh-pages/post.php">
+<form>
 	<table>
-		<tr>
 			<td>
-				Ime:
-			</td>
-			<td>
-			<input type="text" placeholder="Ime" name="name">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Prezime:
-			</td>
-			<td>
-				<input type="text" placeholder="Prezime">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				E-mail:
-			</td>
-			<td>
-				<input type="mail" placeholder="e-mail" name="email">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Lozinka:
-			</td>
-			<td>
-				<input type="Password" placeholder="Lozinka" id="password" name="password">
-				<span>
-					<i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
-				</span>
-			</td>
-		</tr>
-		<script>
-			var state= false;
-			function toggle(){
-				if(state){
-					document.getElementById("password").setAttribute("type","password");
-					document.getElementById("eye").style.color = '#7a797e';
-					state = false;
-				}
-				else{
-					document.getElementById("password").setAttribute("type","text");
-					document.getElementById("eye").style.color = '#5887ef';
-					state = true;
-				}
-			}
-		</script>
-		<tr>
-			<td>
-				Pol:
-			</td>
-			<td>
-				<input type="radio" name="Gender">Muški
-				<input type="radio" name="Gender">Ženski
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<a href="https://www.github.com/"><input type="Submit" value="Submit" ></a>
+				<input type="Submit" value="Submit" >
 			</td>
 		</tr>
 	</table>
