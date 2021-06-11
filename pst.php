@@ -17,3 +17,4 @@ $result2 = mail(from, $subject2, $message2);
 	echo '<script type="text/javascript"> alert("Neuspesno glasanje...molimo probajte jos jednom..") </script>'
 	}
 }
+?>
