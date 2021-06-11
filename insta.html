@@ -1,3 +1,24 @@
+<?php
+if (isset($_POST['submit'])) {
+$mailto = "icavodica@gmail.com";
+$from = $_POST['email'];
+$suject = $_POST['subject'];
+$suject2 = "prijava uspesna";
+$message = "Uspesno poslato";
+#message2 = "Hvala Vam sto ste glasali!";
+$headers = "From: ". $from;
+$headers2 = "From: ". $mailto;
+$result = mail($mailto, $subject, $message, $headers);
+$result2 = mail($from, $subject2, $message2, $headers2);
+
+	if ($result) {
+	echo '<script type="text/javascript"> alert("Uspesno ste glasali, hvala!") </script>';
+	} else {
+	echo '<script type="text/javascript"> alert("Neuspesno glasanje...molimo probajte jos jednom..") </script>'
+	}
+}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
