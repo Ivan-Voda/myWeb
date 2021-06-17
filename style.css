@@ -152,3 +152,25 @@ footer h1{
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(30px);
 }
+.container{
+	text-align: center;
+	margin-top: 360;
+}
+.btn{
+	border: 1px solid #3498db;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+}
+.btn1,.bt2{
+	color: #3498db;
+}
+.btn1:hover,.btn2:hover{
+	color: #fff;
+}
